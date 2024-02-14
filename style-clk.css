@@ -98,6 +98,13 @@ body {
     margin-top: -300px;
     margin-left: 100px;
     position: fixed;
+    font-family: Chalkduster, fantasy	;
+    color: #fff;
+
+  }
+  .a1 span{
+    font-family: OCR A Std, monospace		;
+    color: #31fa74;
   }
   .feb{
   color: #fff;
@@ -105,12 +112,21 @@ body {
   padding-top: 20px;
   margin-left: 0px;
   margin-right: 20%;
+  font-family: OCR A Std, monospace;
+
+}
+.feb span{
+  font-family: Chalkduster, fantasy	;
+
+  color: #31fa74;
+
 }
   #headline{
     font-size:25px;
     left:20%;
     top:150px;
     margin-right: 10%;
+    font-family: Stencil Std, fantasy	;
 
   }
 
@@ -156,6 +172,8 @@ body {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 40px rgba(255, 255, 255, 0.5);
   background: linear-gradient(45deg, yellow, orange);
   transition: background-color 0.3s ease;
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  color: #f00;
   text-shadow: 0 0 10px #ff6a00, 0 0 20px #ff6a00, 0 0 40px #ff6a00, 0 0 80px #ff6a00, 0 0 120px #ff6a00;
 }
 
@@ -396,7 +414,14 @@ h1 {
   right: 0;
   margin: auto;
 }
+.onspt{
+  font-family: Chalkduster, fantasy;
+}
+.a1 span{
+  font-family: Copperplate, Papyrus, fantasy;
+  color:rgb(56, 251, 79);
 
+}
 /* screen resolution */
 
 @media only screen and (max-width: 768px) 
@@ -414,28 +439,31 @@ h1 {
     letter-spacing: 6px;
     line-height: 22px;
     text-align: center;
-    margin-right: 40%;
 
   }
 
   .img {
     align-items: center;
     
-    margin-top: 70px;
+    margin-top: 62px;
+    margin-left: 0px;
+    margin-right: 30px;
    
   }
   img{
-    width:100%;
-    height:100%;
+    width:150%;
+    height:150%;
     }
-    .feb {
-     
-      margin-right: 40%;
-  }
+    
 
+    .img {
+    
+      left: 12%;
+     
+  }
   .a1 {
    
-    margin-left: 0px;
+    margin-left: 85px;
     
 }
  
@@ -445,7 +473,15 @@ h1 {
     text-align: center;
     width: 60%;
     padding-top: 30px;
+    font-family: Chalkduster, fantasy	;
+    color: #ffffff;
 
+
+  }
+  .a1 span{
+    font-family: Copperplate, Papyrus, fantasy;
+    color:rgb(56, 251, 79);
+ 
   }
   .a1 {
    
@@ -454,36 +490,51 @@ h1 {
 .heading .feb{
   color: #fff;
   text-align: center;
-  font-size:16px;
-  padding-top: 3px;
-  padding-left: 50px;
+  font-size:20px;
+  font-family: Copperplate, Papyrus, fantasy;
+
   }
-  #headline{
-    font-size:15px;
-    
+  .feb span{
+    color: #47ff84;
+    font-family: Chalkduster, fantasy	;
   }
+ 
   .heading {
-    margin-left: 20%;
-    margin-top: 0%;
+    margin-left: 0%;
+    margin-top: 7%;
+    color: #ffffff;
+    font-size:15px;
+
+}
+  .heading {
     text-align: center;
     color: #ffffff;
 }
   .heading {
-    width: 80%;
+    width: 100%;
     color: #ffffff;
     text-align: center;
 
+}
+.feb {
+  
+  margin-right: 0%;
 }
 .heading {
   
   color: #ffffff;
 }
-
+#headline {
+  font-size: 20px;
+  font-family:Blippo, fantasy		 ;
+  margin-right: 0%;
+}
 
 
 
   .countdown{
-    left:6%;
+    align-items: center;
+    left:4.2%;
     top:-15%;
   }
   .countdown-block {
@@ -508,12 +559,23 @@ h1 {
   }
   .onspt{
     top:58%;
-    left:13%;
-    font-size: 18px;
+    align-items: center;
+    font-size: 15px;
   }
-  
+  .onspt {
+    position: fixed;
+    align-items: center;
+    left:7%;
+    font-weight: 400;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 20px;
+    color: #ffffff;
+}
   #explore-button{
     top:75%;
     width:max-content;
+    font-family: Copperplate, Papyrus, fantasy;
+    color: rgb(255, 0, 0);
+
   }
 }

@@ -663,3 +663,8 @@ footer>h3 {
     text-align: center;
     margin-top: 40px;
 }
+.copy p span{
+    color: #ff0000;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: large;
+}

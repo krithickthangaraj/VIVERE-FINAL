@@ -193,6 +193,10 @@ body {
     #nav li {
         margin-bottom: 25px;
     }
+    #head img{
+        width: 100px;
+        height: 60px;
+    }
 
     #mobile {
         display: flex;

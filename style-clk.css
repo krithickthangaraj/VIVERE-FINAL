@@ -74,9 +74,8 @@ body {
 .img {
   position: fixed;
   margin-top: 0px;
-  left: 18%;
+  left: 28%;
   align-items: center;
-  width: 50%;
 }
 
 .heading {
@@ -111,7 +110,7 @@ body {
   font-size: 20px;
   padding-top: 20px;
   margin-left: 0px;
-  margin-right: 20%;
+  margin-right: 16%;
   font-family: OCR A Std, monospace;
 
 }
@@ -442,24 +441,11 @@ h1 {
 
   }
 
-  .img {
-    align-items: center;
-    
-    margin-top: 62px;
-    margin-left: 0px;
-    margin-right: 30px;
-   
-  }
-  img{
-    width:150%;
-    height:150%;
-    }
-    
-
-    .img {
-    
-      left: 12%;
-     
+  .img img{
+    width: 320px;
+    margin-top: 18.5%;
+    margin-right: 0%;
+    margin-left: -50%;
   }
   .a1 {
    

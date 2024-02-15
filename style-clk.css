@@ -74,7 +74,7 @@ body {
 .img {
   position: fixed;
   margin-top: 0px;
-  left: 18%;
+  left: 24%;
   align-items: center;
   
 }
@@ -108,9 +108,9 @@ body {
   color: #fff;
   font-size: 20px;
   padding-top: 20px;
-  margin-left: 0px;
-  margin-right: 16%;
+  margin-left: 150px;
   font-family: OCR A Std, monospace;
+  text-align: center;
 
 }
 .feb span{
@@ -216,7 +216,7 @@ h1  {
   width: max-content;
   text-align: center;
   align-items: center;
-  margin-left: 13%;
+  margin-left: 0%;
 }
 
 .img {  
@@ -228,6 +228,13 @@ h1  {
 
 .heading{
   margin-left: 28%;
+  margin-top:7%;
+  color: #ffffff;
+  padding-left: 10px;
+  
+}
+.heading h1{
+  margin-left: 20%;
   margin-top:7%;
   color: #ffffff;
   
@@ -442,7 +449,7 @@ h1  {
     width: 320px;
     margin-top: 18.5%;
     margin-right: 0%;
-    margin-left: -35%;
+    margin-left: -50%;
   }
   
     
@@ -450,7 +457,7 @@ h1  {
     
   .a1 {
    
-    margin-left: 85px;
+    margin-left: 70px;
     
 }
  
@@ -487,7 +494,7 @@ h1  {
   }
  
   .heading {
-    margin-left: 0%;
+    margin-left: 3%;
     margin-top: 7%;
     color: #ffffff;
     font-size:15px;
@@ -505,8 +512,21 @@ h1  {
 }
 .feb {
   
-  margin-right: 0%;
+  margin-right: 9%;
 }
+
+.feb {
+  
+  margin-left: 0px;
+
+}
+.heading h1 {
+  margin-left: 11%;
+  margin-top: 7%;
+  text-align: center;
+  color: #ffffff;
+}
+
 .heading {
   
   color: #ffffff;
@@ -554,7 +574,7 @@ h1  {
   .onspt {
     position: fixed;
     align-items: center;
-    left:7%;
+    left:8%;
     font-weight: 400;
     font-family: Copperplate, Papyrus, fantasy;
     font-size: 20px;

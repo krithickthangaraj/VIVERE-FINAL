@@ -17,7 +17,7 @@ html {
 
 h1 {
   font-size: 50px;
-  line-height: 64px;
+  line-height: 60px;
   color: #222;
 }
 
@@ -74,9 +74,11 @@ body {
 .img {
   position: fixed;
   margin-top: 0px;
-  left: 24%;
+  left: 18%;
   align-items: center;
+  
 }
+
 
 .heading {
   position: fixed;
@@ -84,12 +86,9 @@ body {
   left: 0%;
   font-size: 10px;
   text-align: center;
-  *{
-    
-    color: #fff;
-    padding-left: -100px;
+  
 }
-}
+
 
 
   .a1{
@@ -121,7 +120,7 @@ body {
 
 }
   #headline{
-    font-size:25px;
+    font-size:20px;
     left:20%;
     top:150px;
     margin-right: 10%;
@@ -168,12 +167,10 @@ body {
   cursor: pointer;
   z-index: 999;
   font-weight: 500;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 40px rgba(255, 255, 255, 0.5);
   background: linear-gradient(45deg, yellow, orange);
   transition: background-color 0.3s ease;
   font-family: Comic Sans MS, Comic Sans, cursive;
   color: #f00;
-  text-shadow: 0 0 10px #ff6a00, 0 0 20px #ff6a00, 0 0 40px #ff6a00, 0 0 80px #ff6a00, 0 0 120px #ff6a00;
 }
 
 #explore-button:hover {
@@ -211,23 +208,24 @@ main {
   position: relative;
 }
 
-h1 {
-  font-size: 1.5em;
-  margin: 19px 0 109px;
-  letter-spacing: 8px;
+h1  {
+  font-size: 1em;
+  letter-spacing: 3px;
   color: #fff;
   text-transform: uppercase;
+  width: max-content;
+  text-align: center;
+  align-items: center;
+  margin-left: 13%;
 }
 
 .img {  
   align-items: center;
   top:0%;
   margin-left: 5% ;
-    img{
-    width: 70%;
-    height:70%;
-    }
+   
 }
+
 .heading{
   margin-left: 28%;
   margin-top:7%;
@@ -247,7 +245,6 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   position: fixed;
-  margin-top: 550px;
   left: 0%;
   column-gap: 25px;
 }
@@ -261,9 +258,9 @@ h1 {
   -ms-flex-flow: row nowrap;
   flex-flow: row nowrap;
   
-  margin-top: 550px;
+  margin-top: 540px;
   left: 24%;
-  column-gap: 25px;
+  column-gap: 50px;
   align-items: center;
 }
 
@@ -294,7 +291,7 @@ h1 {
 
 .time-elem {
   position: relative;
-  color: #f00;
+  color: rgb(255, 11, 11);
   position: relative;
   height: 130px;
   width: 140px;
@@ -434,12 +431,12 @@ h1 {
   }
 
   h1 {
-    font-size: 4px;
-    letter-spacing: 6px;
-    line-height: 22px;
+    letter-spacing: 2px;
+    line-height: 20px;
     text-align: center;
 
   }
+
 
   .img img{
     width: 320px;
@@ -447,6 +444,10 @@ h1 {
     margin-right: 0%;
     margin-left: -60%;
   }
+  
+    
+
+    
   .a1 {
    
     margin-left: 85px;
@@ -511,9 +512,11 @@ h1 {
   color: #ffffff;
 }
 #headline {
-  font-size: 20px;
+  font-size: 17px;
   font-family:Blippo, fantasy		 ;
   margin-right: 0%;
+  width: 70%;
+  padding-top: 26px;
 }
 
 
@@ -544,7 +547,7 @@ h1 {
     margin-bottom: 17px;
   }
   .onspt{
-    top:58%;
+    top:66%;
     align-items: center;
     font-size: 15px;
   }
@@ -558,10 +561,16 @@ h1 {
     color: #ffffff;
 }
   #explore-button{
-    top:75%;
+    top:80%;
     width:max-content;
     font-family: Copperplate, Papyrus, fantasy;
     color: rgb(255, 0, 0);
 
   }
+  .countdown {
+    
+    margin-top: 610px;
+    column-gap: 28px;
+    align-items: center;
+}
 }
